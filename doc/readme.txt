@@ -1,4 +1,6 @@
-1.sso登录包含三个工程，公用组件sso-common，客户端sso-client，服务器工程sso-server。
+1.sso登录包含三个工程，公用组件sso-common，git地址是:https://github.com/longjiazuo/sso-common
+客户端sso-client，git地址是:https://github.com/longjiazuo/sso-client
+还有一个就是本服务器工程sso-server。
 2.sso-common工程是sso客户端sso-client和sso-server服务器端公用的工程，需要用到里面的一些公共类。
 3.数据库用的mysql,运行工程之前需要先建库，否则数据源加载失败。
 4.sso-server工程启动之后需要初始化单点登录功能。初始化访问路径:工程域名路径/account/init
